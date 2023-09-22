@@ -17,7 +17,7 @@ We set up the data frame. Edit the data below to include information about your 
 
 ```{r setup-tibble}
 team_data <- tibble(
-  name = c("Edward", "Jack", "Ruth", 
+  name = c("Edwin", "Jack", "Ruth", 
            "Sid", "Mingxi"),
   github_username = c("Edw12", "JackHutcheson", "RuthAsh", 
                       "siddhantpujni", "Jiang-Mingxi"), 
@@ -69,4 +69,5 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-Any other data visualisation that is suitable for discrete values.
+Any other data visualisation that is suitable for discrete values, rather than this bar chart as you cannot have a decimal value when it comes to the count of people.
+
